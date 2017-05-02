@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="mainForm" action="index.html" method="post">
+        <div id="symptoms">
+          <h3>Symptoms</h3>
+          <input type="checkbox" name="user-symptom" value="1">Weight Gain<br>
+          <input type="checkbox" name="user-symptom" value="1">High Blood Pressure<br>
+          <input type="checkbox" name="user-symptom" value="1">Headaches<br>
+        </div>
+        <div id="signs">
+          <h3>Signs</h3>
+          <input type="checkbox" name="user-signs" value="1">Felling Irritable<br>
+          <input type="checkbox" name="user-signs" value="1">Loss of Sleep<br>
+          <input type="checkbox" name="user-signs" value="1">Felling Aniexty or Rushed<br>
+        </div>
+        <div id="coping">
+          <h3>Coping</h3>
+          <input type="checkbox" name="user-coping" value="Exercise">Exercise<br>
+          <input type="checkbox" name="user-coping" value="Meditation">Meditation<br>
+          <input type="checkbox" name="user-coping" value="Eat-Greens">Eat More Green Vegetables<br>
+        </div>
+        <button type="submit" name="button" class="btn">Submit</button>
+      </form>
+      <span id="suggestions">
+        <p><b>
+
+        </b></p>
+      </span>
+    </div>
+  </body>
+</html>
